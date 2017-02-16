@@ -16,7 +16,14 @@ npm start
 ```
 
 ##Endpoints
-
+```bash
 POST /users/register
-POST /users/authenticate   - Gives back a token
-GET /users/profile         - Needs json web token to authorize
+```
+
+```bash
+POST /users/authenticate   // Gives back a token
+```
+
+```bash
+GET /users/profile         // Needs json web token to authorize
+```
