@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const config = require('./config/database');
 
 // Connect To Database
-mongoose.connect(config.database);
+mongoose.connect(config.database, { useMongoClient: true });
 
 // On Connection
 mongoose.connection.on('connected', () => {
