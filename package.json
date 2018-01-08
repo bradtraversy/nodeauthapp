@@ -1,6 +1,6 @@
 {
   "name": "meanauthapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MEAN stack authentication app",
   "main": "app.js",
   "scripts": {
@@ -8,12 +8,13 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
     "bcryptjs": "*",
-    "cors": "*",
-    "jsonwebtoken": "*",
+    "bluebird": "*",
     "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
     "passport": "*",
     "passport-jwt": "*"
   },
