@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
-##Endpoints
+## Endpoints
 ```bash
 POST /users/register
 ```
